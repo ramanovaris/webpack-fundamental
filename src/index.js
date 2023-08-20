@@ -1,7 +1,9 @@
-import * as bootstrap from 'bootstrap';
+require('./vendor');
+
 
 import { css } from './style.scss';
 
+import _ from 'lodash';
 import { run } from './app/app.js';
 
 import { AlertService } from './app/alert.service.js';
@@ -14,3 +16,5 @@ const jokesService = new JokesService();
 
 
 run(alertService, calculatorService, jokesService);
+
+console.log(_.toUpper('Hello from index.js'));
