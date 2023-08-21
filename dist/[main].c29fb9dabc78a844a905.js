@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbelajar_webpack_code=self.webpackChunkbelajar_webpack_code||[]).push([[858],{540:(a,m,e)=>{var i=e(486);const c=e.n(i)().find([{nama:"Rama Novaris",email:"rama@gmail.com"},{nama:"Jumai",email:"jumai@gmail.com"},{nama:"Faris",email:"faris@gmail.com"}],{nama:"Jumai"});console.log(c)}},a=>{a(a.s=540)}]);
